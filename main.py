@@ -11,7 +11,7 @@ app.config['UPLOAD_FOLDER'] = IMG_FOLDER
 
 @app.route("/")
 def home():
-    return render_template("/index.html")
+    return render_template("/template/index.html")
 
 
 answer_list = []
@@ -31,8 +31,8 @@ def chatbot():
         print(answer_list)
         if len(answer_list) > 5:
             answer_list.remove(answer_list[0])
-        return render_template("chatbot.html", message=message, res=res, answer_list=answer_list, robot_img=robot_img)
-    return render_template("chatbot.html", message="", answer_list=answer_list)
+        return render_template("template/chatbot.html", message=message, res=res, answer_list=answer_list, robot_img=robot_img)
+    return render_template("template/chatbot.html", message="", answer_list=answer_list)
 
 
 if __name__ == "__main__":
