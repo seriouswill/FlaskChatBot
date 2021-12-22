@@ -11,7 +11,7 @@ app.config['UPLOAD_FOLDER'] = IMG_FOLDER
 
 @app.route("/")
 def home():
-    return render_template("index.html")
+    return render_template("/index.html")
 
 
 answer_list = []
