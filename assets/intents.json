@@ -1,0 +1,113 @@
+{
+        "intents": [
+                {
+                        "tag": "greeting",
+                        "patterns": [
+                                "Hi",
+                                "How are you",
+                                "Is anyone there?",
+                                "Hello",
+                                "Good day",
+                                "Whats up",
+                                "hello",
+                                "hi there",
+                                "hey",
+                                "hey there"
+                        ],
+                        "responses": [
+                                "Hello!",
+                                "Good to see you again!",
+                                "How's it going?",
+                                "Welcome!",
+                                "Good day!",
+                                "Hi there, how can I help?"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "goodbye",
+                        "patterns": [
+                                "cya",
+                                "bye,",
+                                "see you later",
+                                "in a bit",
+                                "See you later",
+                                "Goodbye",
+                                "I am Leaving",
+                                "Have a Good day",
+                                "laters"
+                        ],
+                        "responses": [
+                                "Sad to see you go :(",
+                                "Talk to you later",
+                                "hope I was helpful",
+                                "Goodbye!"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "age",
+                        "patterns": [
+                                "how old",
+                                "what's your age?",
+                                "what is your age",
+                                "how old are you",
+                                "age?"
+                        ],
+                        "responses": [
+                                "I am 31 years old!",
+                                "31 years young!",
+                                "As old as f.... time!",
+                                "older than you"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "name",
+                        "patterns": [
+                                "what is your name",
+                                "what should I call you",
+                                "whats your name?",
+                                "what're you called?",
+                                "what should I call you?"
+                        ],
+                        "responses": [
+                                "You can call me WillBot.",
+                                "I'm WillBot3000!",
+                                "I'm SeriousWill aka WillBot3000."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "shop",
+                        "patterns": [
+                                "Id like to buy something",
+                                "what is for sale?",
+                                "what do you reccommend?",
+                                "could i buy something?"
+                        ],
+                        "responses": [
+                                "Of course! Have you got the cash?",
+                                "We sell a lot of things here!",
+                                "We got tha goods, you got tha wedge?"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "hours",
+                        "patterns": [
+                                "when are you guys open",
+                                "what are your hours",
+                                "hours of operation",
+                                "what time do you open?",
+                                "what time should I come to the shop",
+                                "can I come to the shop now?"
+                        ],
+                        "responses": [
+                                "We are open 9am-5pm Monday-Friday!",
+                                "Our opening hours are 9-5 Monday through Friday!"
+                        ],
+                        "context_set": ""
+                }
+        ]
+}
